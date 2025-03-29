@@ -12,6 +12,7 @@ cd eb-py-flask-signup
 git checkout docker
 eb init -p Docker
 eb create dev-env
+eb deploy
 eb open
 ```
 
